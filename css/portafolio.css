@@ -1,0 +1,40 @@
+*{
+  font-family: serif;
+  background:#fdfafa;
+  font-weight: 8px;
+  font-size: 17px;
+}
+a{
+  text-decoration: none;
+  }
+
+.imagen-icon{
+  display: inline-block;
+  position:relative;
+  width: 20%;
+  padding: 20px 10px 25px 150px;
+  z-index: 1;
+}
+
+.menu li{
+  display:inline-block;
+  flex-direction: column;
+  margin-right: 15px;
+
+}
+
+.caja-menu a{
+  color: rgb(145, 153, 153);
+position: relative;
+left: 900px;
+bottom: 80px;
+
+}
+.h1-inicio{
+  color:rgb(110, 117, 117);
+  text-align:center;
+  position: relative;
+  margin: -40px 250px 50px;
+  font-size: 24px;
+}
+
