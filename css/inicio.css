@@ -4,9 +4,30 @@
   font-weight: 8px;
   font-size: 17px;
 }
+
+
+.logo-menu{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 2% auto;
+  border: 1px solid #f0eded;
+  border-top: none;
+  width: 80%;
+}
+
 a{
   text-decoration: none;
   }
+
+.imagen-icon{
+  position:relative;
+  width: 100px;
+  padding-top: 15px ;
+  padding-right: 15px;
+}
+/*
 
 .imagen-icon{
   display: inline-block;
@@ -280,6 +301,8 @@ bottom: 80px;
   background:linear-gradient(to bottom, #12afc4, #0b6c79)
 }
 
+*/
+
 footer{
   display: flex;
   justify-content: space-around;
@@ -291,3 +314,4 @@ footer{
 footer p{
 background-color: #0b6c79;
 }
+
