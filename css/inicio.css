@@ -1,8 +1,8 @@
 *{
-  font-family: serif;
+  font-family: 'Varela Round', sans-serif;
   background:#fdfafa;
   font-weight: 8px;
-  font-size: 17px;
+  
 }
 
 
@@ -12,7 +12,7 @@
   flex-direction: row;
   align-items: center;
   margin: 2% auto;
-  border: 1px solid #f0eded;
+  border: 2px solid #f5f6f7;
   border-top: none;
   width: 80%;
 }
@@ -23,10 +23,44 @@ a{
 
 .imagen-icon{
   position:relative;
+  top: 20px;
   width: 100px;
-  padding-top: 15px ;
-  padding-right: 15px;
+  margin-left: 15px;
 }
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  
+}
+
+.caja-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: 2px 2px;
+  padding: 5px 10px;
+  list-style: none;
+}
+
+.h1-inicio{
+  margin: 2% auto;
+  border-bottom: 2px solid #f5f6f7;
+  width: 80%;
+  font-size: 24px;
+  font-weight: 400;
+  color: #63707e;
+  padding: 20px 0px 40px;
+  text-align: center;
+}
+
+
+
 /*
 
 .imagen-icon{
