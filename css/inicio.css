@@ -1,6 +1,6 @@
 *{
   font-family: 'Varela Round', sans-serif;
-  background:#fdfafa;
+  background:#fff;
   font-weight: 8px;
   
 }
@@ -278,4 +278,88 @@ a{
   border-radius: 50%;
   margin-top: 15px;
 
-} 
+}
+
+
+/* contacto */
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-left: 15%;
+  margin-right: auto;
+  background-color:  #F5F6F7;
+  float: left;
+}
+
+
+aside > div > img{
+  display: block;
+  width: 360px;
+  height: auto;
+  background-color: inherit;
+}
+
+aside > div > h3{
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+  font-size: 20px;
+  font-weight: 400;
+  color: #06bc9b;
+  background-color:inherit;
+  width: 360px;
+}
+
+aside > div > p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10% auto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #525d68;
+}
+
+.title-form > h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #06BC9B;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 700px;
+  margin-right: 20%;
+  background-color: #F5F6F7;
+}
+
+form > label{
+  margin: 5%;
+  background-color: inherit;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+  color: #525d68;
+}
+
+form > input{
+ margin: 0 5%;
+ height: 10%;
+ border-radius: 5px;
+ border: 1px solid #667380b4;
+}
+
+form > input: {
+  border: #06BC9B 1px solid;
+}
